@@ -1,0 +1,90 @@
+nav {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.navMenu {
+    display: flex;
+    background-color: #D7B5C8;
+    padding: 10px;
+    border-radius: 15px;
+    height: fit-content;
+    width: 75%;
+    margin: 40px;
+    margin-top: 80px;
+}
+
+.navMenu li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600px;
+    list-style: none;
+    padding: 10px;
+    height: auto;
+}
+
+#hero {
+    display: flex;
+
+}
+
+.heroImg {
+    width: 800px;
+    flex-direction: column;
+}
+.buttons {
+    width: 600px;
+}
+
+.logoImg {
+    display: flex;
+    height: 175px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.topHeader {
+    width: 100%;
+    
+}
+
+.mainP {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+  }
+
+h1 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 120px;
+}
+
+.flex-container {
+    padding: 10px;
+    margin: 70px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px;
+    align-content: center;
+    padding-bottom: 250px;
+    margin: 50px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        margin: 50px;
+        flex-direction: column;
+    }
+  }
