@@ -1,11 +1,12 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
 <!DOCTYPE html>
 <html>
     <head>
         <link href="./CSS/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -15,10 +16,10 @@
             <nav>
                 <img src="./photos/Group 3.png" class="logoImg"> 
                 <ul class="navMenu">
-                    <li>My Work</li>
-                    <li>Skills</li>
+                    <li><a onclick="down1()">My Work</a></li>
+                    <li><a onclick="down2()">My Skills</a></li>
                     <li>Resume</li>
-                    <li>Contact</li>
+                    <li><a onclick="down3()">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,9 +32,9 @@
             </div>
         </section>
 
-    </body>
+    
 
-         <section>
+         <section id="myWork">
              <h1 class="workHeader">
                 <img src="./photos/Group 129.png">
             </h1>
@@ -42,7 +43,7 @@
             </div>
          </section>
 
-         <section>
+         <section id="mySkills">
              <h1 class="skillHeader">
                 <img src="./photos/Group 137.png" class="mySkills">
              </h1>
@@ -51,7 +52,7 @@
              </div>
          </section>
 
-         <section>
+         <section id="myContact">
              <h1 class="contactHeader">
                 <img src="./photos/Group 139.png">
              </h1>
@@ -59,7 +60,7 @@
                 <img src="./photos/Group 140.png" class="myContact">
              </div>
          </section>
-
+    </body>
     <script src="js/index.js"> </script>    
 
 </html>
